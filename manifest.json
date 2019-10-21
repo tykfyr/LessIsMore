@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Less = More",
+  "version": "0.2",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["lessequalsmore.js"]
+    }
+  ]
+}
