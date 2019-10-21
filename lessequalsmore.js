@@ -1,6 +1,6 @@
 let currentUrl = window.location.toString();
 
-let substrings = ["checkout", "basket", "cart"];
+let substrings = ["checkout", "basket", "cart", "kurv"];
 
 if (substrings.some(function (v) {
     return currentUrl.indexOf(v) >= 0;
